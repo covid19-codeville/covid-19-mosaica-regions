@@ -1,0 +1,16 @@
+.RegionTooltipContent__title {
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+.RegionTooltipContent__label {
+  font-size: 1.2em;
+}
+.RegionTooltipContent__label--cases {
+  color: #e36e79;
+}
+.RegionTooltipContent__label--recovered {
+  color: #4dcd85;
+}
+.RegionTooltipContent__label--deaths {
+  color: #ddd;
+}

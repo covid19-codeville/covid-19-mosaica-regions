@@ -1,0 +1,9 @@
+.rsm-geography {
+  transition: fill .3s ease-in;
+  fill: #ddd;
+  stroke: #999;
+  stroke-width: .25;
+}
+.rsm-geography.active {
+  fill: #999;
+}
