@@ -1,3 +1,21 @@
+.cv19App {
+  max-width: 877px;
+}
+
+.cv19App__title {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.cv19App__updated {
+  display: block;
+  font-size: .8em;
+  color: #8e8e8e;
+  text-align: right;
+  margin: 1em auto;
+}
+
 .rsm-geography {
   transition: fill .3s ease-in;
   fill: #ddd;

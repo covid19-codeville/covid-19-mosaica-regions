@@ -1,0 +1,48 @@
+.cv19TableContainer {
+  max-height: 300px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #dedede;
+}
+
+.cv19Table {
+  border-collapse: collapse;
+  cursor: default;
+  width: 100%;
+}
+
+.cv19Table th {
+  position: sticky;
+  top: 0;
+  background-color: #15a4fa;
+  color: #fff;
+}
+.cv19Table th, .cv19Table td {
+  padding: .5em;
+}
+
+.cv19Table tr {
+  transition: background-color .3s linear;
+  background-color: #fff;
+}
+.cv19Table tr:hover, .cv19Table tr.selected {
+  background-color: #efefef;
+}
+
+.cv19Table td + td {
+  text-align: center;
+}
+
+.cv19Table__cell {
+  font-weight: bold;
+}
+
+.cv19Table__cell--cases {
+  color: #e36e79;
+}
+.cv19Table__cell--recovered {
+  color: #4dcd85;
+}
+.cv19Table__cell--deaths {
+  color: #666;
+}
