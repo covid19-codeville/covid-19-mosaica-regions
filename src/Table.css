@@ -3,6 +3,8 @@
   overflow-y: scroll;
   border-radius: 5px;
   box-shadow: 0 0 10px 1px #dedede;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .cv19Table {
@@ -30,7 +32,7 @@
 }
 
 .cv19Table td + td {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .cv19Table__cell {

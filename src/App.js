@@ -31,14 +31,14 @@ function App() {
 
   return (
     <div className="cv19App">
-      <h3 class="cv19App__title">COVID-19 в мире</h3>
+      <h3 class="cv19App__title">COVID-19 в России</h3>
 
       <span className="cv19App__updated">Данные <strong>стопкоронавирус.рф</strong>, обновлено: { formatUpdateDate(updated) }</span>
 
       <div className="cv19App__content">
-        {/* <div className="cv19App__content_row">
+        <div className="cv19App__content_row">
           { regions.length > 0 ? <Map { ...mapEventHandlers } data-tip data-for={ REGION_TOOLTIP_GLOBAL_ID } regionObject={ regionObject } /> : '' }
-        </div> */}
+        </div>
         {/* <div className="cv19App__content_row"> */}
           <Table regionObject={ regionObject } regions={ regions } { ...mapEventHandlers } />
         {/* </div> */}
